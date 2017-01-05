@@ -22,13 +22,13 @@ public class MainTabActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_tab);
-mContext=this;
+         mContext=this;
+
+
         tabLayput=(TabLayout)findViewById(R.id.tabLayout);
         viewPager = (ViewPager)findViewById(R.id.viewPager);
 
         loadFragments();
-
-
     }
 
     private void loadFragments() {

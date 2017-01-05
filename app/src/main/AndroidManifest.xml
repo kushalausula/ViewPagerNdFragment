@@ -9,6 +9,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainTabActivity">
+
+        </activity>
+        <activity android:name=".Fragment_WithoutViewPager">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
