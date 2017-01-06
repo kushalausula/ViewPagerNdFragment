@@ -28,8 +28,6 @@ public class Fragment_WithoutViewPager extends AppCompatActivity {
                 .add(contentFrame,new Fragment2())
                 .commit();
 
-
-
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
